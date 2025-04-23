@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Margen del cuerpo */
+    padding: 0; /* Relleno del cuerpo */
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background: #35424a; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto */
+    padding: 20px 0; /* Relleno del encabezado */
+    text-align: center; /* Alineación del texto */
+}
+
+
+nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin: 0 15px; /* Margen entre elementos */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px; /* Relleno de las secciones */
+    margin: 20px; /* Margen entre secciones */
+    background: #ffffff; /* Color de fondo de las secciones */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0; /* Relleno del pie de página */
+    background: #35424a; /* Color de fondo del pie de página */
+    color: #ffffff;
+    position: relative;
+    bottom: 0; /* Alineación al fondo */
+    width: auto;
+}
+
