@@ -4,6 +4,7 @@ body {
     margin: 0; /* Margen del cuerpo */
     padding: 0; /* Relleno del cuerpo */
     background-color: #f4f4f4;
+    align-items: center;
 }
 
 
@@ -37,6 +38,12 @@ section {
     background: #ffffff; /* Color de fondo de las secciones */
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
 }
 
 /* Estilo del pie de página */
